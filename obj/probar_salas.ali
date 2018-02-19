@@ -1,0 +1,73 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U probar_salas%b	probar_salas.adb	b15944b9 OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W salas%s		salas.adb		salas.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D probar_salas.adb	20180219162552 435e1604
+D salas.ads		20180219160928 ca6aa769
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 2r5
+X 5 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 2r9
+263U14*Put_Line 8|10s4 11s4 13s4 28s4 36s4 43s4
+X 8 probar_salas.adb
+6U11*Probar_Salas 6b11 46l5 46t17
+7r4 S{9|4R9} 9m33 10r59 11r57 12r23 13r54 14m33 14r33 15m33 15r33 16m33 16r33
+. 17m33 17r33 18m33 18r33 19m33 19r33 20m33 20r33 21m33 21r33 22m33 22r33
+. 23m33 23r33 24m33 24r33 25m33 25r33 26m33 26r33 27m33 27r33 28r57 31m33
+. 31r33 32m33 32r33 33m33 33r33 34m33 34r33 35m33 35r33 36r57 39m33 39r33
+. 40m33 40r33 41m33 41r33 42m33 42r33 43r57 45m33 45r33
+X 9 salas.ads
+2K9*Salas 8|4w6 4r17 9|35e10
+4R9*Sala 8|7r7 9|34e14
+6U14*Crear_Sala 8|9s4
+12V13*Aforo{positive} 8|10s53
+14V13*Plazas_Libres{natural} 8|11s43 28s43 36s43 43s43
+16V13*La_Pelicula{string} 8|13s42
+18U14*Modificar_Pelicula 8|12s4
+20U14*Vender_Localidades_Contiguas 8|14s4 15s4 16s4 17s4 18s4 19s4 20s4 21s4
+. 22s4 23s4 24s4 25s4 26s4 27s4 31s4 32s4 33s4 34s4 35s4 39s4 40s4 41s4 42s4
+. 45s4
+
